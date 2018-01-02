@@ -1,0 +1,131 @@
+/* Comment in CSS 
+Mehrere Selectoren gleichzeitig anvisieren:
+p,
+#id,
+.class
+
+Nur anwenden wenn mehrere selectoren zutreffen
+p.class oder .class.class2 oder #id.class
+
+Nur anwenden für selectoren innerhalb eines selectors (Descendant)
+#id p oder .class h1 oder .class header li
+
+Nur für die direkten childs des ersten selektors (Direct Descendant)
+#intro > a (<p> nested innerhalb <a> betrifft es nicht)
+
+Für alle Elemente eines selektors
+body > * (alle direkten children von body bekommen es, nicht das body selbst)
+p * (alle innerhalb des <p>, nicht aber p selber)
+
+main { height: calc(100vh - 100px); } calc zum arbeiten mit zwei größen gleichzeitig
+ 
+*/
+
+body{
+	background-color:black;
+	font-size: 14px;
+}
+
+#Logo{
+	border: 1px transparent grey;
+	box-shadow: 5px 5px 15px cyan;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	width:10vw;
+
+}
+	
+#HeaderSection{
+	width:10vw;
+	position:fixed;
+	left: 0px;
+	top: 0px;
+
+}
+.section_class{
+	background-color:floralwhite;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	margin-bottom:75px;
+}
+
+audio, video, #IframeYoutube{
+	width: 80%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+#Überschrift{
+	width:80vw
+	font-style: normal;
+	font-family: "Copperplate Gothic", "Comic Sans", sans-serif;
+	font-size: 48px;
+	color: cyan;
+	text-shadow: 10px 10px 50px cyan;
+	margin-left: 10vw;
+	margin-right:10vw;
+	text-align: center;
+}
+
+
+.Menüpunkte{
+
+	font-weight: bold;
+	font-style:italic;
+	font-family: serif;
+	font-size: 1.5rem;
+	color:cornsilk;
+	line-height: 1.5rem;
+}
+
+#NavList{
+	width:10vw;
+	padding-left:0px;
+	
+}
+table{
+	width: 50%;
+	border-collapse: collapse;
+	border-bottom: 2px solid black;
+	margin-right: auto;
+	margin-left:auto;
+
+	}
+
+tr:nth-child(even){
+	background-color:deepskyblue;
+}
+
+tbody tr:hover{
+	font-weight: bold;
+	background-color:aqua;
+}
+
+#TableHeader{
+	font-weight: bold;
+	height: 25px;
+	font-size: 18px;
+	border-bottom: 2px solid black;
+	background-color:dodgerblue;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	text-align: center;	
+}
+
+
+td{
+	padding-bottom: 3px;
+	padding-top: 3px;
+	text-align: center;		
+}
+
+#DatumKader{
+	font-style: italic;
+}
+
+li{
+	list-style-type:none;
+}
