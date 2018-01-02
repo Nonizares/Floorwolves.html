@@ -22,35 +22,64 @@ main { height: calc(100vh - 100px); } calc zum arbeiten mit zwei größen gleich
 */
 
 body{
+	background:repeating-linear-gradient(45deg, cyan, cyan 50px, black 50px, black 100px, white 100px, white 150px, black 150px, black 200px);
+	margin:0px;
+}
+
+
+
+
+#Überschrift{
+	width:100vw
+	font-style: normal;
+	font-family: "Copperplate Gothic", "Comic Sans", sans-serif;
+	font-size: 4rem;
+	text-shadow: 15px 5px 25px cyan;
+	text-align: center;
 	background-color:black;
-	font-size: 14px;
+	color:white;
+	padding:2rem;
+	border:none;
 }
 
-#Logo{
-	border: 1px transparent grey;
-	box-shadow: 5px 5px 15px cyan;
-	border-radius: 20px;
-	margin-bottom: 20px;
-	width:10vw;
+
+
+
+
+#sidebar{
+	border: none;
+	width:15vw;
+	background-color:black;
 
 }
-	
-#HeaderSection{
-	width:10vw;
-	position:fixed;
-	left: 0px;
-	top: 0px;
 
+#logo{
+	width:15vw;
 }
+
+.Menüpunkte{
+	display:inline-block;
+	font-weight: bold;
+	font-style:italic;
+	font-family: serif;
+	font-size: 1.5rem;
+	color:cornsilk;
+	margin-bottom:1rem;
+	margin-top:1rem;
+	text-decoration: none;
+}
+
+
+
 .section_class{
 	background-color:floralwhite;
-	margin-left: 10vw;
+	margin-left: 15vw;
 	margin-right: 10vw;
-	margin-bottom:75px;
+	margin-bottom:2rem;
 }
 
 audio, video, #IframeYoutube{
-	width: 80%;
+	width: 75%;
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
@@ -58,34 +87,6 @@ audio, video, #IframeYoutube{
 
 
 
-#Überschrift{
-	width:80vw
-	font-style: normal;
-	font-family: "Copperplate Gothic", "Comic Sans", sans-serif;
-	font-size: 48px;
-	color: cyan;
-	text-shadow: 10px 10px 50px cyan;
-	margin-left: 10vw;
-	margin-right:10vw;
-	text-align: center;
-}
-
-
-.Menüpunkte{
-
-	font-weight: bold;
-	font-style:italic;
-	font-family: serif;
-	font-size: 1.5rem;
-	color:cornsilk;
-	line-height: 1.5rem;
-}
-
-#NavList{
-	width:10vw;
-	padding-left:0px;
-	
-}
 table{
 	width: 50%;
 	border-collapse: collapse;
@@ -125,6 +126,7 @@ td{
 #DatumKader{
 	font-style: italic;
 }
+
 
 li{
 	list-style-type:none;
